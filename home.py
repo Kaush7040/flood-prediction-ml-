@@ -36,7 +36,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 import os
 
-api_key = 'AIzaSyD0akQGCXfOpMXyRlEp18OtcA-QbzCnaLo' 
+api_key = '' 
 
 llm = GooglePalm(google_api_key=api_key, temperature=0.1)
 
