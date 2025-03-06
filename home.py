@@ -43,8 +43,8 @@ llm = GooglePalm(google_api_key=api_key, temperature=0.1)
 instructor_embeddings = HuggingFaceInstructEmbeddings(model_name="hkunlp/instructor-large")
 vectordb_file_path = "faiss_index"
 
-api_key = '4f448163'
-api_secret = 'P24TNhGJfYBJJIqO'
+api_key = ''
+api_secret = ''
 
 client = vonage.Client(key=api_key, secret=api_secret)
 sms = vonage.Sms(client)
@@ -91,7 +91,7 @@ def send_sms(to, text):
 
 
 
-client = ors.Client(key='5b3ce3597851110001cf624876a2839afd6741a7992073ce7a614c8e')
+client = ors.Client(key='')
 x=pd.read_csv(r"C:\Code\disaster prediction project\Flood-prediction-master\approach1\kerala.csv")
 rf_names = ["Kerala State Disaster Management Authority","HelpAge India","Welfare Services Ernakulam","ENNAKKATHARA AYURVEDA HOSPITAL","NEUROBASE BRAIN AND SPINE EXCELLENCE SPECIALITY CENTRE FOR AYURVEDA AND PHYSIOTHERAPY","Kripa Ayurveda Marma Hospital","Ayurmadom Ayurveda Treatment Centre"]
 rf_coords = [
